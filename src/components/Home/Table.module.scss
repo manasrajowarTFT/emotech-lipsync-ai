@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // overflow: hidden;
+
+    .table-header-container {
+        display: flex;
+        width: 100%;
+        margin: 1rem 0 0.2rem 0;
+
+        .table-header {
+            color: #A6A6A6;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+
+    .table-data-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pagination-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 1rem;
+    }
+}
